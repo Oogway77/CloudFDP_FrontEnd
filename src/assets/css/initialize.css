@@ -1,0 +1,45 @@
+body { 
+    margin: 0; 
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+  
+body, p, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, table, th, td, form, fieldset, legend, input, textarea, button, select { margin: 0; padding: 0; font-family: 'Source Sans Pro', sans-serif; font-size: 13px; font-weight: 400;  }
+
+body, input, textarea, select, button, table { outline: none; font-family: 'Source Sans Pro', sans-serif; font-size: 13px; font-weight: 400; }
+
+iframe { border-width: 0; }
+
+table { border-collapse: collapse; }
+
+th, td { max-width: 0; }
+
+img, fieldset, button { border: 0; }
+
+img { vertical-align: top; }
+
+ul, ol { list-style: none; }
+
+em, address { font-style: normal; }
+
+a { text-decoration: none; }
+
+a:hover, a:active, a:focus { text-decoration: none; }
+
+hr, legend { display: none; }
+
+button { cursor: pointer; background-color: transparent; }
+
+input, button { outline: 0; }
+
+.blind { overflow: hidden; position: absolute !important; width: 1px; height: 1px; border: 0; padding: 0; clip: rect(0px, 0px, 0px, 0px); }
+
+input, select, button { border-radius: 0; }
+
+::-webkit-scrollbar { background: transparent; width: 6px; height: 6px; cursor: pointer; }
+
+::-webkit-scrollbar-thumb { background: #cccccc; -webkit-border-radius: 6px; border-radius: 6px; -webkit-box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.1); }
+
+html, body {  height: 100%; box-sizing: border-box; background: #F9F9F9; overflow-x: hidden; }
+
